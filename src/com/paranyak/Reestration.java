@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Reestration {
     int defaultSize = 10;
-    private int insertIndex = 0;
+    protected int insertIndex = 0;
     TicketSki tickets [] = new TicketSki[defaultSize];
 
     public void addTicket(TicketSki nw) {

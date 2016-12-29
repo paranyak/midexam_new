@@ -29,5 +29,18 @@ public class Main {
 
         rstr.blockUser();
         System.out.println("Reestration base: " + rstr);
+
+        Tyrniket tyr = new TyrniketDays(rstr);
+        System.out.println(tyr.go(3));
+        System.out.println(rstr);
+
+        Tyrniket tyr2 = new TyrniketTimes(rstr);
+        System.out.println(tyr2.go(1));
+        System.out.println(rstr);
+
+        Tyrniket tyr3 = new TyrniketTimes(rstr);
+        System.out.println(tyr3.go(2));
+        System.out.println(rstr);
+
     }
 }

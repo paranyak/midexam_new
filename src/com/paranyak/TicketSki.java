@@ -58,4 +58,5 @@ public class TicketSki {
         return "Type: " + this.type.printType() + ", Trips: " + this.trips.printType() + ", days/times : " + this.days + "/" + this.times + "**";
     }
 
+
 }
